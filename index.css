@@ -1,0 +1,82 @@
+.logo {
+    width: 800px;
+    height: auto;
+    position: relative;
+    margin-left: 125px;
+}
+
+@media (max-width: 800px) {
+    .logo {
+        width: 345px;
+        height: auto;
+        position: relative;
+        margin-left: 5px;
+    }
+}
+
+* {
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    * {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+button {
+    background-color: #59606d;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+p {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #59606d;
+}
+
+#access,
+#withdraw,
+#deposit,
+#getBal {
+    margin: 40px;
+}
+
+.createAccount {
+    margin: 40px;
+}
+
+h2 {
+    color: #59606d;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.home:hover {
+    color: #eb4e05;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.home {
+    color: #59606d;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+}
+
+#newPin {
+    display: none;
+}
+
+#CST {
+    color: #59606d;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#pinput,
+#changePin,
+#getAcct,
+#withd,
+#depo {
+    width: 250px;
+}
